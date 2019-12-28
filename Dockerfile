@@ -5,6 +5,7 @@ LABEL maintainer="void* <voidp@protonmail.com>"
 USER root
 
 ENV APP /usr/src/app
+ENV BASE_URL /
 
 RUN npm install pm2 -g
 
